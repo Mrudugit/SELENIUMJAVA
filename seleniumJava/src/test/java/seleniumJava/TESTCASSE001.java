@@ -33,6 +33,7 @@ public class TESTCASSE001 {
 		product.findElement(By.cssSelector("b")).getText().equals("ZARA COAT 3")).findFirst().orElse(null);
 		
 		System.out.println(prod.getText());
+		System.out.println("Hello");
 		prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
 
 		}
